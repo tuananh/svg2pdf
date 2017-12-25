@@ -1,6 +1,8 @@
 svg2pdf
 -------
 
+> converting SVG to PDF command line utility
+
 ### Requirements
 
 - librsvg2-bin
