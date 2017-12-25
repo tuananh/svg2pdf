@@ -9,3 +9,11 @@ svg2pdf
 ### Usage
 
     svg2pdf input_file.svg output_file.pdf
+
+### Development
+
+You can use `Dockerfile` to test without the need to install requirements on
+your development machine.
+
+    $ docker build -t svg2pdf .
+    $ docker run -it svg2pdf sh
